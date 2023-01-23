@@ -45,9 +45,9 @@ TX SSer/HSer swap D8|15                            |GND
 
 AsyncWebServer server(80);
 
-SoftwareSerial swSerSDM(D2, D3);
+SoftwareSerial swSerSDM(D1, D2);
 
-SDM sdm(swSerSDM, 9600, D1); 
+SDM sdm(swSerSDM, 9600, D3); 
 
 //SDM sdm(swSerSDM, SWSERIAL_8N1, DERE_PIN, SDM_UART_CONFIG, false);                            //HARDWARE SERIAL
 
