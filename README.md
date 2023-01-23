@@ -22,7 +22,7 @@ D0 EasyMeter Zähler
                     |   L T L T L T L T L T L T    |                 5V
                     |                              |                 |
                  RST|                             1|TX HSer          |
-                  A0|                             3|RX HSer  ----------- Anschluss IR-------------  GND
+                  A0|                             3|RX HSer  ----------- Anschluss IR-------  GND
                   D0|16                           5|D1 ----  R0  (RS-485)                 
                   D5|14                           4|D2 ----  DI  (RS-485)                
                   D6|12                    10kPUP_0|D3 ----  RE+DE (RS-485)             
